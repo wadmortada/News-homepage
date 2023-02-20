@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 2.5rem 4rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.links a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: black;
+}
+.first-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+.card-one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.card-two {
+    grid-row-start: 2;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-right: 20%;
+}
+.card-there {
+    grid-row-start: 2;
+    position: relative;
+}
+.card-there button {
+    background-color: red;
+    color: white;
+    width: 60%;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+}
+.card-four {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    display: grid;
+    gap: 0.5rem;
+}
+.card-four h1 {
+    color: orange;
+    font-size: 2rem;
+}
+.card-four h2 {
+    font-size: 1.5rem;
+}
+.second-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+.second-container section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+}
+.details {
+    display: grid;
+    /* gap: 0.125rem; */
+}
+.details h2 {
+    color: gray;
+    font-size: 2rem;
+}
+.details h3 {
+    font-weight: 800;
+}
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
